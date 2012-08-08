@@ -1,0 +1,33 @@
+
+
+h1 {
+
+	color:black;
+	text-align:center;
+	font-size: 200%;
+	font-family:Verdana,Helvetica,sans-serif;
+
+}
+
+p
+{
+color:black;
+text-align:center;
+font-family:Verdana,Helvetica,sans-serif;
+font-size:150%;
+
+} 
+
+h2 {
+
+color:black;
+text-align:left;
+font-size:100%;
+font-family:Verdana,Helvetica,sans-serif;
+}
+
+div {
+
+background-color: white;
+
+}
