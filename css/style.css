@@ -1,0 +1,150 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  background-image:url('../img/smokeedit.png'); 
+  background-repeat:no-repeat;
+}
+#page-wrapper {
+  position: relative;
+  width: 1024px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 1000px;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: "Century Gothic", Arial, Helvetica;
+  text-decoration: none;
+  color: rgb(150,150,150);
+}
+
+.soundcloud {
+  font-family: "Century Gothic", Arial, Helvetica;
+  text-decoration: none;
+  color: rgb(150,150,150);
+
+
+}
+
+#galleria { 
+  position:absolute;
+  left:0px;
+  top:80px;
+  width: 1000px; 
+  height: 700px; 
+  background: #000 
+}
+
+
+body .tabs {
+  float: left;
+  margin-left:-10px;
+  margin-top: 50px;
+
+
+}
+
+ body .tabs li {
+    list-style:none;
+    display:inline;
+    padding:5px 15px;
+    float:right;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-family: "Century Gothic",Helvetica,Arial,sans-serif;
+    filter:alpha(opacity=80);
+    -moz-opacity:0.80;
+    -khtml-opacity: 0.80;
+    opacity: 0.80;
+}
+
+ body .tabs a {
+
+    display:inline-block;
+    color:  rgb(150,150,150);
+    text-decoration:none;
+}
+
+body .tabs a.active {
+     color:rgb(200,200,200);
+}
+body .tabs a:hover {
+    color:rgb(200,200,200);
+}
+
+.rectangle {
+  background: #ffffff;
+  border: none;
+  width: 460px;
+  height: 480px;
+  border-radius: 0px;
+  position: absolute;
+  top: 100px;
+  left: 521px;
+}
+
+.rectangle:hover {
+  z-index: 1000;
+  -webkit-transform: translateY(-3px) scale(1.03);
+  -webkit-transition: all 0.10s linear;
+  -webkit-box-shadow: 0px 2px 7px #999;
+  box-shadow: 0px 2px 7px #999;
+}
+
+.text {
+  color: #000000;
+  font-family: "impact";
+  font-size: 74pt;
+  font-style: normal;
+  font-weight: normal;
+  margin: 370px 0 0 12px;
+  text-align: left;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.rectangle-1 {
+  background: #ffffff;
+  border: none;
+  width: 460px;
+  height: 480px;
+  border-radius: 0px;
+  position: absolute;
+  top: 100px;
+  left: 43px;
+}
+
+.rectangle-1:hover {
+  z-index: 1000;
+  -webkit-transform: translateY(-3px) scale(1.03);
+  -webkit-transition: all 0.10s linear;
+  -webkit-box-shadow: 0px 2px 7px #999;
+  box-shadow: 0px 2px 7px #999;
+}
+
+.text-1 {
+    color: #000000;
+    font-family: "impact";
+    font-size: 74pt;
+    font-style: normal;
+    font-weight: normal;
+    margin:370px 0 0 347px;
+    text-align: left;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.text-2 {
+  color: #ffffff;
+  font-family:"impact";
+  font-size: 74pt;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 575px;
+  left: 390px;
+}
